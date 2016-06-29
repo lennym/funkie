@@ -24,8 +24,8 @@ Run a mocha test suite against a phantom driver:
 
 Examples:
 
-* [Using funkie with protractor](./examples/protractor);
-* [Using funkie with wd](./examples/wd);
+* [Using funkie with protractor](./examples/protractor)
+* [Using funkie with wd](./examples/wd)
 
 ## Supported drivers
 
