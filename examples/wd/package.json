@@ -9,8 +9,8 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "funkie": "0.0.0",
-    "funkie-phantom": "0.0.0",
+    "funkie": "*",
+    "funkie-phantom": "*",
     "mocha": "^2.5.3"
   }
 }
