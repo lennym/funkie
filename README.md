@@ -1,8 +1,12 @@
 # funkie
 
-Makes orchestration of automated functional/behavioural testing easier
+Makes orchestration of automated functional/behavioural testing easier.
 
 Will handle the spinning up and tearing down of automation driver processes automatically so you can just `npm test`. Funkie allows you to choose from a number of compatible automation drivers and will handle their installation and the execution of their processes for you.
+
+## Why funkie?
+
+Most automation frameworks require a user to handle starting/stopping a webdriver/selenium instance independently from the test runner. Funkie makes it easy to do single-command automated test runs, which are fully encapsulated and clean up after themselves.
 
 ## Installation
 
