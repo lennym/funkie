@@ -57,3 +57,9 @@ module.exports = () => {
 ```
 
 If the `start` and `stop` methods are required to be asynchronous then they should return a promise.
+
+You can pass a local driver with the driver option by passing a relative path:
+
+```
+> funkie --driver ./my/local/driver/module [test command]
+```
