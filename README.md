@@ -24,14 +24,14 @@ Run a mocha test suite against a phantom driver:
 
 ## Supported drivers
 
-### PhantomJS
+### [PhantomJS](github.com/lennym/funkie-phantom)
 
 ```
 > npm install [--save-dev] funkie-phantom
 > funkie --driver phantom [test command]
 ```
 
-### Selenium
+### [Selenium](github.com/lennym/funkie-selenium)
 
 ```
 > npm install [--save-dev] funkie-selenium
