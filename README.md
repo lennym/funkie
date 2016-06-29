@@ -12,7 +12,7 @@ Most automation frameworks require a user to handle starting/stopping a webdrive
 
 Funkie can be installed globally for use from the command line, or locally for use as part of an `npm test` script.
 
-## Usage:
+## Usage
 
 First install the driver of choice:
 
@@ -34,12 +34,12 @@ For example, to run a mocha test suite against a phantom driver:
 
 To use an a different driver module:
 
-```
+```shell
 > npm install funkie-selenium
 > funkie --driver selenium <test command>
 ```
 
-## Examples:
+## Examples
 
 * [Using funkie with protractor](./examples/protractor)
 * [Using funkie with wd](./examples/wd)
@@ -48,16 +48,16 @@ To use an a different driver module:
 
 ### [PhantomJS](github.com/lennym/funkie-phantom)
 
-```
+```shell
 > npm install [--save-dev] funkie-phantom
-> funkie --driver phantom [test command]
+> funkie --driver phantom <test command>
 ```
 
 ### [Selenium](github.com/lennym/funkie-selenium)
 
-```
+```shell
 > npm install [--save-dev] funkie-selenium
-> funkie --driver selenium [test command]
+> funkie --driver selenium <test command>
 ```
 
 ### Your favourite automation driver..?
@@ -77,6 +77,6 @@ If the `start` and `stop` methods are required to be asynchronous then they shou
 
 You can pass a local driver with the driver option by passing a relative path:
 
-```
-> funkie --driver ./my/local/driver/module [test command]
+```shell
+> funkie --driver ./my/local/driver/module <test command>
 ```
