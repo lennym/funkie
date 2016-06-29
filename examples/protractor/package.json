@@ -1,0 +1,16 @@
+{
+  "name": "funkie-protractor-example",
+  "version": "1.0.0",
+  "description": "protractor example for funkie",
+  "main": "index.js",
+  "scripts": {
+    "test": "funkie --driver phantom protractor conf.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "funkie": "*",
+    "funkie-phantom": "*",
+    "protractor": "^3.3.0"
+  }
+}

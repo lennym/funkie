@@ -22,6 +22,11 @@ Run a mocha test suite against a phantom driver:
 > funkie --driver phantom mocha ./test
 ```
 
+Examples:
+
+* [Using funkie with protractor](./examples/protractor);
+* [Using funkie with wd](./examples/wd);
+
 ## Supported drivers
 
 ### [PhantomJS](github.com/lennym/funkie-phantom)
