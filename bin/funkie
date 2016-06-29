@@ -1,0 +1,12 @@
+#! /usr/bin/env node
+
+const args = require('minimist')(process.argv.slice(2), { stopEarly: true });
+
+const funkie = require('../');
+
+if (args.help) {
+  require('../lib/usage');
+  process.exit();
+}
+
+funkie(args);

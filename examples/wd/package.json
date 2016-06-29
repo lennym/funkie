@@ -1,0 +1,16 @@
+{
+  "name": "funkie-wd-example",
+  "version": "1.0.0",
+  "description": "wd example for funkie",
+  "main": "index.js",
+  "scripts": {
+    "test": "funkie --driver phantom mocha index.js --timeout 10000"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "funkie": "0.0.0",
+    "funkie-phantom": "0.0.0",
+    "mocha": "^2.5.3"
+  }
+}
