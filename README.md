@@ -20,10 +20,23 @@ First install the driver of choice:
 > npm install --save-dev funkie-phantom
 ```
 
-Run a mocha test suite against a phantom driver:
+Then run the test command of your choice with funkie:
 
 ```shell
-> funkie --driver phantom mocha ./test
+> funkie <test command>
+```
+
+For example, to run a mocha test suite against a phantom driver:
+
+```shell
+> funkie mocha ./test
+```
+
+To use an a different driver module:
+
+```
+> npm install funkie-selenium
+> funkie --driver selenium <test command>
 ```
 
 ## Examples:
