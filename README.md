@@ -14,7 +14,7 @@ Funkie can be installed globally for use from the command line, or locally for u
 
 ## Usage:
 
-First install the runtime of choice:
+First install the driver of choice:
 
 ```shell
 > npm install --save-dev funkie-phantom
@@ -26,7 +26,7 @@ Run a mocha test suite against a phantom driver:
 > funkie --driver phantom mocha ./test
 ```
 
-Examples:
+## Examples:
 
 * [Using funkie with protractor](./examples/protractor)
 * [Using funkie with wd](./examples/wd)
