@@ -1,6 +1,6 @@
 {
   "name": "funkie",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Easier orchestration for functional testing",
   "main": "index.js",
   "bin": "bin/funkie",
